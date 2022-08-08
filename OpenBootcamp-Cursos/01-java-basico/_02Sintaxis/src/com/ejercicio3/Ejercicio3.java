@@ -6,7 +6,7 @@ public class Ejercicio3 {
         String[] nombres = {"Juan", "Raul", "Christian", "Jenny"};
 
         for (String nombre : nombres) {
-            System.out.print(nombre);
+            System.out.printf("%-1s\s",nombre);
         }
 
     }
